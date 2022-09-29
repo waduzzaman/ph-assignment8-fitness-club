@@ -1,0 +1,41 @@
+.workout {
+    width: 350px;
+    height: 430px;
+    border: 1px solid#95A0A7;
+    border-radius: 8px;
+
+   
+}
+
+.workout img {
+    width: 345px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.workout-details{
+    margin: 14px ;
+    margin-top: 5px;
+}
+.workout-name {   
+    font-style: normal;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px; 
+    margin-top: 15px;
+
+}
+
+.btn-list{
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius:0px 0px 8px 8px ;
+       bottom: 0;
+}
+
+.btn-list:hover{
+    background-color: orange;
+
+}
