@@ -4,7 +4,7 @@
     border: 1px solid#95A0A7;
     border-radius: 8px;
 
-   
+
 }
 
 .workout img {
@@ -13,29 +13,40 @@
     margin: 7px;
 }
 
-.workout-details{
-    margin: 14px ;
+.workout-details {
+    margin: 14px;
     margin-top: 5px;
 }
-.workout-name {   
+
+.workout-name {
     font-style: normal;
     font-weight: 400;
     font-weight: bold;
     font-size: 21px;
-    line-height: 25px; 
+    line-height: 25px;
     margin-top: 15px;
 
 }
 
-.btn-list{
+
+
+.btn-list {
     width: 100%;
     background-color: #FFE0B3;
     border: none;
-    border-radius:0px 0px 8px 8px ;
-       bottom: 0;
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-list:hover{
+.btn-list btn-text {
+    margin-right: 10px;
+
+}
+
+.btn-list:hover {
     background-color: orange;
 
 }

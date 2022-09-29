@@ -1,3 +1,5 @@
+import { faCoffee, faShoppingBasket, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Workout.css'
 
@@ -18,7 +20,8 @@ const Workout = ( {activity, handleAddToList } ) =>
             </div>
             <button button onClick={()=>handleAddToList(activity)}
             className = 'btn-list' >
-                <p>Add to List</p>
+                <p className='btn-text'>Add to List</p>
+                <FontAwesomeIcon  icon={faShoppingCart}></FontAwesomeIcon>
             </button>
            
         </div>
