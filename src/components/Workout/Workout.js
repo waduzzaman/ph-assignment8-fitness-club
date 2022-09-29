@@ -1,13 +1,12 @@
 import React from 'react';
 import './Workout.css'
 
-const Workout = ( props ) =>
+const Workout = ( {activity, handleAddToList } ) =>
 {
-    const { image, name, age, time } = props.activity;
-    const handleAddToList = () =>
-    {
-        console.log( "clicked" );
-    }
+    // const {activity, handleAddToList } = props;
+    const { image, name, age, time } = activity;
+    
+  
 
     return (
         <div className='workout'>
@@ -17,7 +16,7 @@ const Workout = ( props ) =>
                 <p>Age: { age }</p>
                 <p>Time : {time} min</p>
             </div>
-            <button button onClick = {handleAddToList}
+            <button button onClick={()=>handleAddToList(activity)}
             className = 'btn-list' >
                 <p>Add to List</p>
             </button>
