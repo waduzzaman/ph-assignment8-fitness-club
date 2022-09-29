@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import List from '../List/List';
 import Workout from '../Workout/Workout';
 import './Gym.css'
 
@@ -35,9 +36,8 @@ const Gym = () =>
                     ></Workout> )
               }
            </div>
-            <div className="complete-activities">
-                <h3>This is for Total activities</h3>
-                <p> Total Activity:{ list.length}</p>
+            <div className="activities-total">
+              <List list={list}></List>
            </div>
         </div>
     );

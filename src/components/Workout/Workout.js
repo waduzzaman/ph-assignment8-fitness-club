@@ -18,6 +18,7 @@ const Workout = ( {activity, handleAddToList } ) =>
                 <p>Age: { age }</p>
                 <p>Time : {time} min</p>
             </div>
+            
             <button button onClick={()=>handleAddToList(activity)}
             className = 'btn-list' >
                 <p className='btn-text'>Add to List</p>
