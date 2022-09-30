@@ -1,3 +1,7 @@
+.blog-head{
+    justify-content: center;
+    align-items: center;
+}
 .blog {
     background-color: rgb(198, 231, 244);
     border: 2px solid rgb(75, 54, 228);
@@ -5,19 +9,23 @@
     padding: 20px;
     gap: 15px;
     justify-content: center;
+
 }
 
 .blog-one {
     border: 2px solid burlywood;
     padding: 8px;
+    width: 33%;
 }
 
 .blog-two {
     border: 2px solid burlywood;
     padding: 8px;
+    width: 33%;
 }
 
 .blog-three {
     border: 2px solid burlywood;
     padding: 8px;
+    width: 33%;
 }

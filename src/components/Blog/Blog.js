@@ -5,6 +5,9 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div className='blog'>
+            <div className="blog-head">
+                <h1> Blogs</h1>
+            </div>            
 
             <div className='blog-one'>
                 <h4>How Does React Works</h4>
@@ -21,7 +24,7 @@ const Blog = () => {
             
             <div className='blog-three'>
                  <h4>What does useEffect do beside data load </h4>
-             <p></p>
+             <p>useEffect hook is a very powerful hook that allows you to handle side effects of state or prop changes as well as creating on-mount functionality similar to componentDidMount in class components.</p>
             </div>
            
         </div>
