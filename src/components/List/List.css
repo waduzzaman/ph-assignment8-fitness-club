@@ -67,3 +67,8 @@
 .activity-completed:hover {
     background-color: orange;
 }
+
+.profile-photo {
+    width: 25%;
+    height: 25%;
+}

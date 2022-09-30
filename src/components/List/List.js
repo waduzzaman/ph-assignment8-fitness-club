@@ -10,7 +10,7 @@ const List = ( ) =>
     return (
         <div div className='list' >
             <div className='profile'>
-                <img src={ profile } alt="profile image" />     
+                <img className='profile-photo' src={ profile } alt="profile image" />     
                 <div>
                     <h4> M Waduzzaman</h4>
                 <p><small>Toronto, Canada</small></p>
