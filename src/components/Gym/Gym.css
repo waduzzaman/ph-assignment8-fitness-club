@@ -1,10 +1,11 @@
-.gym-container {
+.activity-container {
+
     display: grid;
     grid-template-columns: 4fr 1fr;
 
 }
 
-.activities-container {
+.activity-container-details{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;

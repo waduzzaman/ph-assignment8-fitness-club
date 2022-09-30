@@ -1,0 +1,62 @@
+.list {
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    padding: 10px;
+    padding: 30px 20px;
+    background-color:#bbc4c4;
+}
+
+.profile {
+    display: flex;
+}
+
+.bmi {
+
+    margin-top: 10px;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-items: center;
+    padding-left: 50px;
+    gap: 15px;
+    padding-right: 10px;
+    border-radius: 8px;
+
+}
+
+.add-break {
+    background-color: aliceblue;
+    display: flex;
+    justify-items: center;
+    padding-left: 50px;
+    gap: 15px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.activity-completed {
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise-time {
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+.break-time {
+    background-color: lightslategray;
+    border-radius: 5px;
+
+}
+
+.activity-completed:hover {
+    background-color: orange;
+}
