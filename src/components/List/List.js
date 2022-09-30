@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import profile from '../../images/profile-image.png'
 import './List.css';
 
 const List = ( ) =>
 {
     // console.log( list );
+    
 
     return (
         <div div className='list' >
@@ -36,7 +37,10 @@ const List = ( ) =>
             </div>
            
             <div>
-                <h4>Exercise Details</h4>              
+                <h4>Exercise Details</h4>     
+                <h5 className='exercise-time'>Exercise Time:{}</h5>
+                <h5 className='break-time'>Break Time:{}</h5>
+
                 {/* <p className='break-time'>Break Time {list.length}</p>  */}
                 
             </div>

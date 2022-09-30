@@ -5,6 +5,7 @@ import Gym from './components/Gym/Gym';
 import Blog from './components/Blog/Blog';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>  
       <Gym></Gym>
       <Blog></Blog>
+ 
        
     </div>
   );

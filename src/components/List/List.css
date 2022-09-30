@@ -4,7 +4,7 @@
     margin-top: 10px;
     padding: 10px;
     padding: 30px 20px;
-    background-color:#bbc4c4;
+    background-color: #bbc4c4;
 }
 
 .profile {
@@ -12,7 +12,6 @@
 }
 
 .bmi {
-
     margin-top: 10px;
     height: 50px;
     background-color: aliceblue;
@@ -25,6 +24,10 @@
 
 }
 
+.bmi p:hover {
+    background-color: orange;
+}
+
 .add-break {
     background-color: aliceblue;
     display: flex;
@@ -33,6 +36,10 @@
     gap: 15px;
     padding-right: 10px;
     border-radius: 8px;
+}
+
+.add-break p:hover {
+    background-color: orange;
 }
 
 .activity-completed {
